@@ -9,7 +9,7 @@ FROM nginx
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
-RUN rm -rf /usr/share/nginc/html/*
+RUN rm -rf /usr/share/nginx/html/*
 
 COPY --from=build /app/dist/HelloWorld /usr/share/nginx/html
 
