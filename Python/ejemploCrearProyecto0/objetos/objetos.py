@@ -22,6 +22,6 @@ print(c.email)
 c2 = Cliente('4321', 'Luismi', 'López')
 # print(c2.email)
 
-## __str__ es como el ToString de Java, los guiones bajos indican que son métodos especiales, con los __
-## lo que hacemos es ponerle privacidad a la variable.
-#Hacer ejercicios de bloque de funciones y POO.
+# __str__ es como el ToString de Java, los guiones bajos indican que son métodos especiales, con los __
+# lo que hacemos es ponerle privacidad a la variable.
+# Hacer ejercicios de bloque de funciones y POO.

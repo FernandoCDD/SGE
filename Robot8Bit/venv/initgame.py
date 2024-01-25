@@ -1,4 +1,5 @@
 import pygame
+
 from player import Player
 
 pygame.init()
@@ -43,5 +44,3 @@ while True:
 
     pygame.display.update()
     clock.tick(30)
-
-pygame.quit()
